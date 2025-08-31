@@ -10,8 +10,8 @@ const Step5SocialActivation = ({ userAnswers, t }) => {
   const [isSubmitting, setIsSubmitting] = useState(false)
 
   const platforms = [
-    { id: 'facebook', name: t('facebook'), logo: '/src/assets/facebook logo.png', color: 'bg-blue-600' },
-    { id: 'tiktok', name: t('tiktok'), logo: '/src/assets/tiktok logo.png', color: 'bg-black' }
+    { id: 'facebook', name: t('facebook'), logo: '/dist/assets/facebook logo.png', color: 'bg-blue-600' },
+    { id: 'tiktok', name: t('tiktok'), logo: '/dist/assets/tiktok logo.png', color: 'bg-black' }
   ]
 
   const handlePlatformSelect = (platformId) => {
@@ -95,7 +95,7 @@ const Step5SocialActivation = ({ userAnswers, t }) => {
           <div className="text-center mb-6">
             <div className="w-16 h-16 mx-auto flex items-center justify-center mb-2">
               <img 
-                src="/src/assets/facebook logo.png" 
+                src="/dist/assets/facebook logo.png" 
                 alt="Facebook logo"
                 className="w-full h-full object-contain"
               />
@@ -170,7 +170,7 @@ const Step5SocialActivation = ({ userAnswers, t }) => {
           <div className="text-center mb-6">
             <div className="w-16 h-16 mx-auto flex items-center justify-center mb-2">
               <img 
-                src="/src/assets/tiktok logo.png" 
+                src="/dist/assets/tiktok logo.png" 
                 alt="TikTok logo"
                 className="w-full h-full object-contain"
               />

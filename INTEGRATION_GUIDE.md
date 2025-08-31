@@ -82,7 +82,7 @@ npm run dev
 ### **Frontend → Backend**
 ```javascript
 // Form submission
-const response = await fetch('http://localhost:3001/api/submit-form', {
+const response = await fetch('https://spanish-giveaway-backend.onrender.com/api/submit-form', {
   method: 'POST',
   headers: { 'Content-Type': 'application/json' },
   body: JSON.stringify({
@@ -150,7 +150,7 @@ Set these on your hosting platform:
 ### **Domain Configuration**
 Update CORS origins in `server.js`:
 ```javascript
-origin: ['https://yourdomain.com', 'https://www.yourdomain.com']
+origin: ['https://retopremio.onrender.com', 'https://www.retopremio.onrender.com']
 ```
 
 ## 🔧 **Troubleshooting**
