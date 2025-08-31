@@ -173,7 +173,7 @@ const Step2Congratulations = ({ onContinue, t }) => {
                 delay: Math.random() * 3,
               }}
             >
-              {['🎉', '🎊', '🎈', '⭐', '💫'][Math.floor(Math.random() * 5)]}
+              {['🎉', '🎊', '🎈', '⭐', ][Math.floor(Math.random() * 5)]}
             </motion.div>
           ))}
         </div>
